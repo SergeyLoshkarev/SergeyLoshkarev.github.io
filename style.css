@@ -3,10 +3,14 @@
 body{
 	background: #EAEAEA;
 	color: #EAEAEA;
+	margin: 0px;
+	padding: 0px;
 }
 
+
 div{
-	margin: 0 auto;
+	margin: 0px auto 0px;
+	padding: 10px 0px;
 	width: 80%;
 	background: black;
 }
