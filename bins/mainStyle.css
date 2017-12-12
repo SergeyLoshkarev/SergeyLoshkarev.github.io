@@ -1,0 +1,26 @@
+body{
+	font-size: 25px;
+	padding: 0px;
+	background-color: #D1F386;
+}
+
+header{
+	height: 150px;
+}
+
+#back{
+	padding: 5px;
+	width: 100%;
+	text-decoration: none;
+	color: #000000;
+	background-color: #FEFF89;
+}
+
+#back, form{
+	display:inline;
+}
+
+#map{
+	height: 500px;
+	width: 100%;
+}

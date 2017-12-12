@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+}
+
+body{
+	padding: 0px;
+	background-color: #D1F386;
+}
+
+#menu{
+	text-align: center;
+	background-color: #FEFF89;
+	margin-left: 35%;
+	margin-top: 10%; 
+	width: 30%;
+	font-size: 30px;
+}
+
+.butMain{
+	width: 100%;
+	text-decoration: none;
+	color: #000000;
+	background-color: #D1F386;
+}
+

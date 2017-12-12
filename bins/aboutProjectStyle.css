@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+}
+
+body{
+	font-size: 30px;
+	padding: 0px;
+	background-color: #D1F386;
+}
+
+#main{
+	content: 10px;
+	padding: 5px;
+	text-align: center;
+	background-color: #FEFF89;
+	margin-left: 15%;
+	margin-top: 2%; 
+	width: 70%;
+	font-size: 30px;
+}
+
+#back{
+	padding: 5px;
+	width: 100%;
+	text-decoration: none;
+	color: #000000;
+	background-color: #FEFF89;
+}
+
+#butAuthor{
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+	color: #000000;
+}
