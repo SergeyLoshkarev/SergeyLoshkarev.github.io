@@ -3,27 +3,21 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="bins/mainStyle.css">
 	<link rel="stylesheet" type="text/css" href="bins/leaflet.css">
+	<link rel="stylesheet" type="text/css" href="bins/leaflet-routing-machine.css">
 	<script type="text/javascript" src="bins/leaflet.js"></script>
+	<script type="text/javascript" src="bins/leaflet-routing-machine.js"></script>
 	<title>CityWalker</title>
 </head>
 <body>
-	<header>
-		<a href="index.html" id="back">На Главную</a>
-		<form>
-			Начальный X<input type="text" name="fx">
-			Начальный Y<input type="text" name="fy">
-			Конечный X<input type="text" name="lx">
-			Конечный X<input type="text" name="ly">
-			<input type="submit">
-		</form>
-	</header>
 	<div id="map"></div>
 	<script type="text/javascript">
 		var map = L.map('map', {
-    		center: [51.505, -0.09],
+    		center: [55.75, 37.62],
     		zoom: 13
 		});
-		osm = L.tileLayer('http://b.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
+
+		L.tileLayer('http://b.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
+		L.Routing.control({waypoints: [L.latLng(55.75, 37.62), L.latLng(55.74, 37.62)],routeWhileDragging: true}).addTo(map);
 	</script>
 </body>
 </html>
